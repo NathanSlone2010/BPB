@@ -2,6 +2,22 @@ import time
 import sys
 #The required module[s]
 
+skull = r"""
+       ______
+     .-'      '-.
+    /            \
+   |,  .-.  .-.  ,|
+   | )(_o/  \o_)( |
+   |/     /\     \|
+   (_     ^^     _)
+    \__|IIIIII|__/
+     | \IIIIII/ |
+     \          /
+      `--------`
+"""
+
+print(skull)
+
 print("\nBLOOD & POWDER: BUILDUP")
 print(" The Prequel to Blood & Powder")
 print("  BETA EDITION [DEV ONLY]")
