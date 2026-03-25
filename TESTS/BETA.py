@@ -17,6 +17,9 @@ char_set = "CHARACTERS: Dylan, Maxwell, Charlie, Angela, Principle Wells, Roman"
 print("\n\n!!Press 'S' to start or 'E' to exit")
 start = input("C: ").upper()
 
+if start == "CHAR":
+	print(char_set)
+
 if start == "S":
 	print("ENJOY...")
 if start == "E":
