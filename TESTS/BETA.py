@@ -14,7 +14,7 @@ char_set = "CHARACTERS: Dylan, Maxwell, Charlie, Angela, Principle Wells, Roman"
 #Variables go here
 
 
-print("\n\n!!Press 'S' to start or 'E' to exit")
+print("\n\n!!Press 'S' to start or 'E' to exit!! [CHAR ti print names of characters]")
 start = input("C: ").upper()
 
 if start == "CHAR":
@@ -25,8 +25,8 @@ if start == "S":
 if start == "E":
 	print("RETURN WHEN YOU ARE READY, TRUTH-SEEKER.")
 	sys.exit()
-if start not in ["S", "E"]:
-	print("NOT A CHOIUCE, RESTART THE PROGRAM AND MAKE A CHOICE")
+if start not in ["S", "E", "CHAR"]:
+	print("NOT A CHOICE, RESTART THE PROGRAM AND MAKE A CHOICE")
 	sys.exit()
 
 
